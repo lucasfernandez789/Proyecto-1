@@ -42,3 +42,10 @@
 .iconInsta {
   width: 22px;
 }
+
+.buttonStart {
+  background-color: #A5C9CA;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
