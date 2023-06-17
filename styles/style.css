@@ -1,3 +1,11 @@
+.logo {
+  background-image: radial-gradient(
+    at 20px 10px,
+    #395B64,
+    #A5C9CA
+  );
+  border-radius: 2px;
+}
 
 .container {
     display: flex;
