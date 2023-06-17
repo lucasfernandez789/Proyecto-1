@@ -2,7 +2,11 @@ header {
   background-color: #2C3333;
 }
 
-.c {
+.button {
+  color: black
+}
+
+.cont {
     display: flex;
     justify-content: center;
     align-items: center;
