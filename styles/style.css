@@ -1,13 +1,8 @@
-.logo {
-  background-image: radial-gradient(
-    at 20px 10px,
-    #395B64,
-    #A5C9CA
-  );
-  border-radius: 2px;
+header {
+  background-color: #2C3333;
 }
 
-.container {
+.c {
     display: flex;
     justify-content: center;
     align-items: center;
