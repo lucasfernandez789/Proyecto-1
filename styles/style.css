@@ -61,3 +61,11 @@ header {
 .iconoSBN {
   width: 120px;
 }
+
+/* footer end */
+
+/* slider/main-page start */
+
+.container-fluid {
+  padding: 0;
+}
