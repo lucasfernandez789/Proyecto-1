@@ -90,3 +90,13 @@ header {
   background-color: #2C3333;
   color: #fff;
 }
+
+.columnaForm > .container > .card-img-top {
+  border-radius: 1px;
+}
+
+.columnaForm > .container > div > .card {
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
