@@ -71,9 +71,22 @@ header {
 }
 
 .columnaPost {
-  background-color: #A5C9CA;
+  background-color: #fff;
 }
 
 .columnaForm {
-  background-color: #395B64;
+  background-color: #393939;
+}
+
+.card-img-top {
+  border-radius: 15px;
+}
+
+.columnaPost > .container > .card {
+  border-radius: 15px;
+}
+
+.card {
+  background-color: #2C3333;
+  color: #fff;
 }
