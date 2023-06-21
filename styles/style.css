@@ -69,3 +69,34 @@ header {
 .contSlider {
   padding: 0;
 }
+
+.columnaPost {
+  background-color: #fff;
+}
+
+.columnaForm {
+  background-color: #393939;
+}
+
+.card-img-top {
+  border-radius: 15px;
+}
+
+.columnaPost > .container > .card {
+  border-radius: 15px;
+}
+
+.card {
+  background-color: #2C3333;
+  color: #fff;
+}
+
+.columnaForm > .container > .card-img-top {
+  border-radius: 1px;
+}
+
+.columnaForm > .container > div > .card {
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
