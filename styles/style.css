@@ -32,3 +32,42 @@
       padding-left: 20px;
     }
 }
+
+body {
+  background-color: #395B64;
+}
+
+/* h1 {
+  background-color: #A5C9CA;
+} */
+
+.sobre-nosotros {
+  background-color: #A5C9CA;
+}
+
+h1 {
+  border-bottom: 5px solid #A5C9CA;
+}
+
+.tarjets {
+  background-color: #395B64;
+  border: #395B64;
+}
+
+.button-rounded-container {
+  background-color: #A5C9CA;
+  padding: 10px;
+  border-radius: 200px;
+}
+
+.button-rounded {
+  padding: 10px 12px;
+  text-decoration: none;
+  color: #395B64;
+}
+
+.button-rounded:hover {
+  background-color: #395B64;
+  color: white;
+  border-radius: 200px;
+}
