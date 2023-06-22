@@ -100,3 +100,16 @@ header {
   border-radius: 15px;
   margin-top: 10px;
 }
+
+/* main page end */
+
+/* gallery start */
+
+.containerGalleryInner {
+  background-color: #393939;
+}
+
+.containerImgGallery > img {
+  width: 100%;
+  border-radius: 5px;
+}
