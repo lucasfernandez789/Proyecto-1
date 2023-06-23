@@ -113,3 +113,15 @@ header {
   width: 100%;
   border-radius: 5px;
 }
+
+/* gallery end */
+
+/* posts start */
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-item > img {
+  width: 100%;
+}
