@@ -59,13 +59,6 @@ main {
   width: 22px;
 }
 
-.buttonStart {
-  background-color: #A5C9CA;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-}
-
 .iconoSBN {
   width: 120px;
 }
@@ -115,10 +108,18 @@ main {
 
 .botonGallery {
   border-radius: 5px;
+  background-color: #A5C9CA;
 }
 
 .btn-leer {
   background: #A5C9CA;
+  transition: all 400ms ease;
+  border: 1px solid white;
+}
+
+.btn-leer:hover {
+  box-shadow: 0px 1px 5px 5px rgba(165,201,202,0.39);
+  transform: translateY(-3%); 
 }
 
 /* main page end */
