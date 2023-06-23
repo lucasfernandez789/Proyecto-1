@@ -18,27 +18,28 @@
   <meta name="twitter:image" content="ruta-a-tu-imagen.jpg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/style.css">
-  <title>SBN proyecto</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <title>SBN - Argentina</title>
 </head>
 
 <body id="bodyTop">
 
   <!-- header -->
 
-  <header class="fixed-top">
+  <header class="fixed-top border-navbar">
     <nav class="navbar navbar-expand-lg p-3">
       <div class="container">
         <div>
-          <img src="./img/SBN-removebg-preview.png" alt="logo">
+          <a href="#"><img src="./img/SBN-removebg-preview.png" alt="logo"></a>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <button type="button" class="btn fw-bold text-light fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Suscribirse
+                Suscribite
               </button>
             </li>
             <li class="nav-item">
@@ -56,8 +57,9 @@
       <div class="modal-dialog">
         <div class="modal-content bg-dark text-white">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribirse</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribirte</h1>
           </div>
+          <p class="mx-2 mt-4 text-center">Accedé sin límites a la información más confiable del Mundo.</p>
           <div class="modal-body">
             <div>
               <form>
@@ -74,12 +76,13 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Recordarme</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-leer">Suscribirme</button>
               </form>
             </div>
           </div>
+          <p class="text-center mt-3">Disfrutá los beneficios de suscribirte!</p>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-leer" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
@@ -145,7 +148,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-3 fw-bold">Messi sobre el mundial 2026</h5>
                 <p class="card-text fs-4">La frase con la que Lionel Messi dio a entender su presencia en el mundial 2026.</p>
-                <a href="#" class="btn btn-light">Leer</a>
+                <a href="#" class="btn btn-leer">Leer</a>
               </div>
             </div>
             <!-- post/card2 -->
@@ -154,7 +157,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-3 fw-bold">Los Pumas 7's en cuartos</h5>
                 <p class="card-text fs-4">El seleccionado de rugby 7 de los Pumas clasificaron a cuartos de final en la copa oro de Londres y sueñan con un título nuevo.</p>
-                <a href="#" class="btn btn-light">Leer</a>
+                <a href="#" class="btn btn-leer">Leer</a>
               </div>
             </div>
             <!-- post/card3 -->
@@ -163,7 +166,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-3 fw-bold">Denver Nuggets campeones de la NBA 2023</h5>
                 <p class="card-text fs-4">Con un desempeño extraordinario Denver se impuso frente a Miami por 4-1 y se consagró campeón de la NBA por primera vez en su historia.</p>
-                <a href="#" class="btn btn-light">Leer</a>
+                <a href="#" class="btn btn-leer">Leer</a>
               </div>
             </div>
             <!-- paginacion -->
@@ -184,7 +187,7 @@
               </ul>
             </nav>
             <div class="text-center">
-              <a href="galeria.html" class="botonGallery text-white bg-primary p-1 fs-6 fw-bold">Galeria</a>
+              <a href="galeria.html" class="botonGallery text-white bg-dark p-1 fs-6 fw-bold">Galeria</a>
             </div>
           </div>
         </div>
@@ -194,11 +197,11 @@
             <!-- form busqueda -->
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-success" type="submit">Buscar</button>
+              <button class="btn btn-dark" type="submit">Buscar</button>
             </form>
             <!-- lista de temas -->
             <div class="list-group pt-5">
-              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
                 General
               </a>
               <a href="#" class="list-group-item list-group-item-action">Futbol</a>
@@ -206,6 +209,7 @@
               <a href="#" class="list-group-item list-group-item-action">Rugby</a>
               <a class="list-group-item list-group-item-action disabled">Proximamente</a>
             </div>
+            <hr>
             <!-- publicidad -->
             <div class="align-items-center my-4 flex-column d-none d-md-flex">
               <!-- anuncio1 -->
@@ -213,7 +217,7 @@
                 <img src="img/MercadoPago.jpg" class="card-img-top d-none d-lg-block" alt="mercado pago anuncio">
                 <div class="card-body">
                   <a href="" class="text-white">
-                    <h5 class="card-text text-center">Proba Mercado Pago</h5>
+                    <h5 class="card-text text-center">Proba Mercado Pago ya!</h5>
                   </a>
                 </div>
               </div>
@@ -222,7 +226,7 @@
                 <img src="img/spotify.jpg" class="card-img-top d-none d-md-block" alt="Spotify anuncio">
                 <div class="card-body">
                   <a href="#" class="text-white">
-                    <h5 class="card-text text-center">1 mes gratis de premium</h5>
+                    <h5 class="card-text text-center">1 mes grátis de Spotify premium</h5>
                   </a>
                 </div>
               </div>
@@ -231,11 +235,21 @@
                 <img src="img/fiatTipo.jpg" class="card-img-top d-none d-md-block" alt="Fiat anuncio">
                 <div class="card-body">
                   <a href="" class="text-white">
-                    <h5 class="card-text text-center">Financia tu nuevo Fiat</h5>
+                    <h5 class="card-text text-center">Financiá hoy tu nuevo Fiat</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="card d-lg-flex d-sm-none" style="width: 18rem;">
+                <img src="./img/star-plus.jpg" class="card-img-top d-none d-md-block" alt="Spotify anuncio">
+                <div class="card-body">
+                  <a href="#" class="text-white">
+                    <h5 class="card-text text-center">Probá Star Plus ahora!</h5>
                   </a>
                 </div>
               </div>
             </div>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora facilis odio tempore cupiditate aspernatur provident maiores quidem, alias dicta vel rerum doloremque autem. Hic labore ex dolorum numquam corporis.</p>
           </div>
         </div>
       </div>
