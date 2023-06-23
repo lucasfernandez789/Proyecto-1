@@ -1,4 +1,4 @@
-.container {
+.containers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +52,21 @@ h1 {
 .tarjets {
   background-color: #395B64;
   border: #395B64;
+  transition: all 400ms ease;
+}
+
+/* .tarjets:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3%);
+} */
+
+.img-efect {
+  transition: all 400ms ease;
+}
+
+.img-efect:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3%);
 }
 
 .button-rounded-container {
