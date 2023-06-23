@@ -109,6 +109,10 @@ main {
   margin-top: 10px;
 }
 
+.botonGallery {
+  border-radius: 5px;
+}
+
 /* main page end */
 
 /* gallery start */
