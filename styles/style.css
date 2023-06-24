@@ -5,6 +5,9 @@ header {
 .border-navbar {
   box-shadow: 0px 2px 20px black;
 }
+.slider{
+  height: 830px;
+}
 
 .button {
   color: black
