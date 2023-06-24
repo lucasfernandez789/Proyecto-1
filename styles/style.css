@@ -263,3 +263,17 @@ border-radius: 200px;
   height: 400px;
   margin-bottom: 30px;
 }
+
+.containerLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A5C9CA;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #E7F6F2;
+}
