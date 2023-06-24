@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <button type="button" class="btn fw-bold text-light fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button type="button" class="btn fw-bold text-light fs-5" data-bs-toggle="modal" data-bs-target="#modalSub">
                 Suscribite
               </button>
             </li>
@@ -32,15 +32,18 @@
             </li>
           </ul>
         </div>
-        <button class="btn"><img src="./img/login 2.png" alt="img-login" width="50px"></button>
+        <button class="btn">
+          <a href="login.html"><img src="./img/login 2.png" alt="img-login" width="50px"></a>
+        </button>
       </div>
     </nav>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalSub" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content bg-dark text-white">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribite</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribirte</h1>
           </div>
+          <p class="mx-2 mt-4 text-center">Accedé sin límites a la información más confiable del Mundo.</p>
           <div class="modal-body">
             <div>
               <form>
@@ -57,12 +60,13 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Recordarme</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-leer">Suscribirme</button>
               </form>
             </div>
           </div>
+          <p class="text-center mt-3">Disfrutá los beneficios de suscribirte!</p>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-leer" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
