@@ -149,3 +149,12 @@ main {
 .carousel-item > img {
   width: 100%;
 }
+
+.contenedor {
+  background-color: #395B64;
+}
+
+.iframe {
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #1d1c1c;
+}
