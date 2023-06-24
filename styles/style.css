@@ -162,3 +162,7 @@ main {
 h1 {
   border-bottom: 5px solid #A5C9CA;
 }
+
+.cardContacto {
+  width: 500px;
+}

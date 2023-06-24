@@ -39,7 +39,7 @@
               </button>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold text-light fs-5" href="#">Contacto</a>
+              <a class="nav-link fw-bold text-light fs-5" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold text-light fs-5" href="./acerca-de.html">Acerca de</a>
@@ -94,8 +94,28 @@
           <div class="col-sm-6 d-flex justify-content-center mb-5">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.408879082126!2d-65.2072018!3d-26.8367009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1687580332124!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
           </div>
-          <div class="col-sm-6">
-
+          <div class="col-sm-6 d-flex justify-content-center mb-5">
+            <div class="card cardContacto p-3">
+              <form>
+                <div class="mb-3">
+                  <label for="InputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo@gmail.com" required>
+                </div>
+                <div class="mb-">
+                  <label for="InputText" class="form-label">Mensaje</label>
+                  <textarea name="mensaje" id="InputText" placeholder="ej:hola" class="form-control" rows="6"></textarea>
+                </div>
+                <div class="mt-2 mb-1 form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">Recibir novedades/ofertas</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">No recibir novedades/ofertas</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-5">Enviar</button>
+              </form>
+            </div>
           </div>
       </div>
   </div>
