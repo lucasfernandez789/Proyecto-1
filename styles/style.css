@@ -163,3 +163,94 @@ h1 {
 .cardContacto {
   width: 500px;
 }
+
+/* acerca de start */
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #A5C9CA;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #E7F6F2;
+}
+
+.container a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-container .form-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  .form-container .image-section {
+    flex: 1;
+    padding-left: 20px;
+  }
+}
+
+body {
+background-color: #395B64;
+}
+
+/* h1 {
+background-color: #A5C9CA;
+} */
+
+.sobre-nosotros {
+background-color: #A5C9CA;
+}
+
+h1 {
+border-bottom: 5px solid #A5C9CA;
+}
+
+.tarjets {
+background-color: #395B64;
+border: #395B64;
+transition: all 400ms ease;
+}
+
+/* .tarjets:hover {
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+transform: translateY(-3%);
+} */
+
+.img-efect {
+transition: all 400ms ease;
+}
+
+.img-efect:hover {
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+transform: translateY(-3%);
+}
+
+.button-rounded-container {
+background-color: #A5C9CA;
+padding: 10px;
+border-radius: 200px;
+}
+
+.button-rounded {
+padding: 10px 12px;
+text-decoration: none;
+color: #395B64;
+}
+
+.button-rounded:hover {
+background-color: #395B64;
+color: white;
+border-radius: 200px;
+}
