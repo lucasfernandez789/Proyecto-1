@@ -215,6 +215,7 @@ background-color: #A5C9CA;
 
 h1 {
 border-bottom: 5px solid #A5C9CA;
+padding-bottom: 10px;
 }
 
 .tarjets {
@@ -241,10 +242,11 @@ transform: translateY(-3%);
 background-color: #A5C9CA;
 padding: 10px;
 border-radius: 200px;
+width: 400px;
 }
 
 .button-rounded {
-padding: 10px 12px;
+padding: 8px 12px;
 text-decoration: none;
 color: #395B64;
 }
@@ -253,4 +255,10 @@ color: #395B64;
 background-color: #395B64;
 color: white;
 border-radius: 200px;
+}
+
+.card > img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
 }
