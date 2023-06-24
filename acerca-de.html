@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg p-3">
+      <div class="container">
+        <div>
+          <a href="index.html"><img src="./img/SBN-removebg-preview.png" alt="logo"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <button type="button" class="btn fw-bold text-light fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Suscribite
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-light fs-5" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-light fs-5" href="./acerca-de.html">Acerca de</a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn"><img src="./img/login 2.png" alt="img-login" width="50px"></button>
+      </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribite</h1>
+          </div>
+          <div class="modal-body">
+            <div>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text">No compartiremos esta informacion con nadie.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Numero de telefono</label>
+                  <input type="number" class="form-control" id="exampleInputCellphone" required>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid py-2">
+      <h1 class=" text-center fw-bold text-light">ROLLING BOYS</h1>
+    </div>
+    <div class="d-flex container-fluid justify-content-center p-5 row">
+      <div class="card tarjets mx-3 col-12 col-md-6 col-lg-2">
+        <img src="./img/Damian-Correa-removebg-preview.png" class="card-img-top rounded-pill img-efect imgAcercaDe" alt="Damián Correa">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center fw-bold">Damián Correa</h5>
+        </div>
+      </div>
+      <div class="card tarjets mx-3 col-12 col-md-6 col-lg-2">
+        <img src="./img/Luis-Correa-removebg-preview.png" class="card-img-top rounded-pill img-efect imgAcercaDe" alt="Luis Correa">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center fw-bold">Luis Correa</h5>
+        </div>
+      </div>
+      <div class="card tarjets mx-3 col-12 col-md-6 col-lg-2">
+        <img src="./img/Marcos-Coronel-removebg-preview.png" class="card-img-top rounded-pill img-efect imgAcercaDe" alt="Marcos Coronel">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center fw-bold">Marcos Coronel</h5>
+        </div>
+      </div>
+      <div class="card tarjets mx-3 col-12 col-md-6 col-lg-2">
+        <img src="./img/Lucas-Fernandez.png" class="card-img-top rounded-pill img-efect imgAcercaDe" alt="Lucas Lucas Fernandez">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center fw-bold">Lucas Fernández</h5>
+        </div>
+      </div>
+      <div class="card tarjets mx-3 col-12 col-md-6 col-lg-2">
+        <img src="./img/Ivan-Mena-removebg-preview.png" class="card-img-top rounded-pill img-efect imgAcercaDe" alt="Iván Mena">
+        <div class="card-body">
+          <h5 class="card-title text-light text-center fw-bold">Iván Mena</h5>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-dark fw-bold">
+      <p class="sobre-nosotros p-sm-2">Somos un grupo de jóvenes, amantes de la tecnología en busca de un lugar dentro de la industria para el futuro. <br> Actualmente estudiamos en Rolling Code, con mucha ilusión y ganas para poder vivir de lo que más nos gusta.</p>
+      <hr>
+      <div class="justify-content-center flex-column align-items-center mb-5 d-none d-md-flex">
+        <p class="text-light fw-bold"> Para desarrollar éste proyecto usamos:</p>
+        <div class="button-rounded-container d-flex justify-content-center">
+          <a href="#" class="button-rounded">HTML</a>
+          <a href="#" class="button-rounded">CSS</a>
+          <a href="#" class="button-rounded">BOOTSTRAP</a>
+          <a href="#" class="button-rounded">GIT & GITHUB</a>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="container-fluid footer text-center">
+        <div class="row text-white">
+  
+          <!-- col1 -->
+  
+          <div class="col-sm-10 col-md-6 col-lg-4 d-none d-lg-block">
+            <div>
+              <img src="img/SBN.png" alt="iconoSBN" class="iconoSBN">
+            </div>
+            <div class="py-1 d-flex justify-content-center">
+              <p class="copyright">All Rights Reserved 2023 &copy;</p>
+            </div>
+          </div>
+  
+          <!-- col2 -->
+  
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="py-3 d-flex align-items-center justify-content-center">
+              <h3 class="text-center">Nuestras redes</h3>
+            </div>
+            <div class="d-flex justify-content-around align-items-center flex-column py-1">
+  
+              <!-- red1 -->
+              <div class="d-flex mb-1">
+                <div>
+                  <img src="img/instagram.png" alt="instagram" class="iconInsta me-2">
+                </div>
+                <a href="#" class="link-light text-decoration-none" target="_blank"><h5>@Damian</h5></a>
+              </div>
+  
+              <!-- red2 -->
+              <div class="d-flex mb-1">
+                <div>
+                  <img src="img/instagram.png" alt="instagram" class="iconInsta me-2">
+                </div>
+                <a href="#" class="link-light text-decoration-none" target="_blank"><h5>@Luis</h5></a>
+              </div>
+  
+              <!-- red3 -->
+              <div class="d-flex mb-1">
+                <div>
+                  <img src="img/instagram.png" alt="instagram" class="iconInsta me-2">
+                </div>
+                <a href="#" class="link-light text-decoration-none" target="_blank"><h5>@Marcos</h5></a>
+              </div>
+  
+              <!-- red4 -->
+              <div class="d-flex mb-1">
+                <div>
+                  <img src="img/instagram.png" alt="instagram" class="iconInsta me-2">
+                </div>
+                <a href="#" class="link-light text-decoration-none" target="_blank"><h5>@Lucas</h5></a>
+              </div>
+  
+              <!-- red5 -->
+              <div class="d-flex mb-1">
+                <div>
+                  <img src="img/instagram.png" alt="instagram" class="iconInsta me-2">
+                </div>
+                <a href="#" class="link-light text-decoration-none" target="_blank"><h5>@Ivan</h5></a>
+              </div>
+            </div>
+          </div>
+  
+          <!-- col3 -->
+  
+          <div class="col-sm-10 col-md-6 col-lg-4 d-none d-md-block">
+            <div class="py-3">
+              <h3>Mas Info</h3>
+            </div>
+            <div class="p-1">
+              <p>Blog Deportivo creado para poder mantener informado a los fanaticos del mundo de los deportes. <br> contamos con las ultimas noticias sobre los deportes mas importantes y pasionales del mundo. <br> Futbol, Rugby, Basketball, Automovilismo, Tenis, Etc. <br> Informacion actualizada de las mejores competiciones de todos los deportes </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
