@@ -298,3 +298,8 @@ border-radius: 200px;
 .comentario {
   margin: 10px;
 }
+
+.imgLogin {
+  width: 80%;
+  height: 80%;
+}
