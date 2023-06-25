@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Rubik+Puddles&display=swap');
+
+body{
+    background-color:#395B64;
+}
+
+.pageText{
+    font-family: 'Geologica', sans-serif;
+    font-size: 23px;
+}
+
+.imgPage{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPageColor{
+    background-color: #A5C9CA;
+}
+
+a{
+    margin-right: 1%;
+    text-decoration: none;
+    font-family: 'Geologica', sans-serif;
+    color:#2C3333;
+    background-color:#A5C9CA;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #93c5c7;
+    width: 55px;
+    height: 35px;
+}
