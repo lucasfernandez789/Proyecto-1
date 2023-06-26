@@ -59,8 +59,8 @@ main {
   background-color: #2C3333;
 }
 
-.iconInsta {
-  width: 22px;
+.iconRedes {
+  width: 40px;
 }
 
 .iconoSBN {
@@ -69,6 +69,10 @@ main {
 
 .copyright  {
   margin-top: 30%;
+}
+
+.redesDiv > a > h5 {
+  margin: 0;
 }
 
 /* footer end */
