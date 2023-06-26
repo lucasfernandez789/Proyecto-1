@@ -187,6 +187,10 @@ h1 {
   width: 500px;
 }
 
+.slider {
+  height: 51.875rem;
+}
+
 /* acerca de start */
 
 .containers {
@@ -246,11 +250,6 @@ background-color: var(--color6);
 border: var(--color6);
 transition: all 400ms ease;
 }
-
-/* .tarjets:hover {
-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-transform: translateY(-3%);
-} */
 
 .img-efect {
 transition: all 400ms ease;
