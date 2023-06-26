@@ -1,11 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Rubik+Puddles&display=swap');
+:root {
+    --color1: #2c3333;
+    --color2: #A5C9CA;
+    --color3: #E7F6F2;
+    --color4: #ccc;
+    --color5: #000;
+    --color6: #395B64;
+    --color7: #393939;
+    --color8: #fff;
+    --color9: white;
+    --color10: #1d1c1c;
+    --color11: #93c5c7;
+}
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
 
 body{
-    background-color:#395B64;
+    background-color:var(--color6);
 }
 
 .pageText{
-    font-family: 'Geologica', sans-serif;
+    color: var(--color5);
     font-size: 23px;
 }
 
@@ -17,21 +33,21 @@ body{
 }
 
 .cardPageColor{
-    background-color: #A5C9CA;
+    background-color: var(--color2);
 }
 
 a{
     margin-right: 1%;
     text-decoration: none;
     font-family: 'Geologica', sans-serif;
-    color:#2C3333;
-    background-color:#A5C9CA;
+    color: var(--color1);
+    background-color:var(--color2);
     border-radius: 7px;
     padding: 5px;
 }
 
 a:hover{
-    background-color: #93c5c7;
+    background-color: var(--color11);
     width: 55px;
     height: 35px;
 }
