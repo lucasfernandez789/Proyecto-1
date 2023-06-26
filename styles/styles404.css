@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Rubik+Puddles&display=swap');
+* {
+    font-family: 'Mulish', sans-serif;
+}
 
 body{
     background-color:#395B64;
